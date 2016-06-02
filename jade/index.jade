@@ -1,0 +1,544 @@
+Doctype
+html(lang="en")
+	head
+		title Fashion Accesoris
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="stylesheet", href="css/main.css")
+		link(rel="stylesheet", href="css/bootstrap.min.css")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		link(rel="stylesheet", href="")
+
+		script(src="js/jquery.js")
+		script(src="js/bootstrap.min.js")
+	body
+		.cabecera
+			.container
+				.row
+					.col-xs-6
+						h4 Default Welcome Msg!
+					.col-xs-6
+						ul.list-menu.list-unstyle.list-inline.pull-right
+							li
+								div.dropdown
+									img.img-responsive(src="images/flag1.png")
+									button.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") Languaje
+										i.fa.fa-chevron-down
+									span.claret
+									ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+										li
+											a(href="#") Action
+										li
+											a(href="#") Another action
+										li
+											a(href="#") Something else here
+										li.divider(role="separator")
+										li
+											a(href="#") Separated link
+									
+							li
+								div.dropdown
+									button.fa.fa-usd.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") Currency
+										i.fa.fa-chevron-down
+									span.claret
+									ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+										li
+											a(href="#") Action
+										li
+											a(href="#") Another action
+										li
+											a(href="#") Something else here
+										li.divider(role="separator")
+										li
+											a(href="#") Separated link
+							
+							li
+								div.dropdown
+									button.fa.fa-user.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") My Account
+										i.fa.fa-chevron-down
+									span.claret
+									ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+										li
+											a(href="#") Action
+										li
+											a(href="#") Another action
+										li
+											a(href="#") Something else here
+										li.divider(role="separator")
+										li
+											a(href="#") Separated link
+
+		.segundo
+			.container
+				.row
+					.col-xs-4.open
+						.col-xs-4
+							i.fa.fa-clock-o.reloj
+						.col-xs-8
+							h4 OPENING TIME
+							P 9.00 AM - 10.00 PM
+					.col-xs-4
+						img(src="images/logo.png")
+					.col-xs-4
+						input.buscador.srilo_lt(
+							type=search 
+							name=busqueda
+							placeholder=search
+							)
+						i.fa.fa-search
+		.tercero
+			.container
+				.row
+					.col-xs-6
+						ul.list-menu.list-unstyle.list-inline
+							li
+								a(href="#") HOME
+							li
+								a(href="#") CONTACT US
+					.col-xs-6
+						div.compras
+							h3 
+								i.fa.fa-shopping-cart MY CART 
+							p 2 items(s) - $244.00
+		.cuarto
+			div.flotante
+						div.opa.thumbnail
+							.row
+								.col-xs-5
+									img(src="images/cart-1.jpg")
+								.col-xs-7
+									p Aliquam Consequat
+									p 1 x $500
+							.row
+								.col-xs-5
+									img(src="images/cart-2.jpg")
+								.col-xs-7
+									p Aliquam Consequat
+									p 1 x $200
+							.row
+								.col-xs-6
+									p Sub-Total
+									p Eco Tax (-2.00)
+									p VAT (20%)
+								.col-xs-6.pull-right
+									p.precio $700
+									p.precio $7.00
+									p.precio $40.00
+			div#caorusel-example-generic.carousel.slide(data-ride="carousel")
+				ol.carousel-indicators
+					li.active(data-target="#carousel-example-generic" data-slide-to="0")
+					li(data-target="#carousel-example-generic" data-slide-to="1")
+				div.carousel-inner(role="listbox")
+					div.item.active
+						img.img-responsive(src="images/slider1.jpg" alt="true")
+						div.carousel-caption
+					div.item
+						img.img-responsive(src="images/slider2.jpg" alt="true")
+						div.carousel-caption
+		.quinto
+			.container
+				.row.ima-dos
+					.col-xs-5
+						img.img-responsive(src="images/banner1.jpg")
+					.col-xs-7
+						img.img-responsive(src="images/banner2.jpg")
+				.row
+					div.opcion.text-center
+						ul.fa.fa-chevron-left.list-unstyle.list-inline
+							li
+								a(href="#") LATEST
+							li
+								a(href="#") BETSELLER
+							li
+								a(href="#") SALE
+							i.fa.fa-chevron-right
+
+					div.lineas-separador
+				.row
+					div#caorusel-example-generic.carousel.slide(data-ride="carousel")
+						ol.carousel-indicators
+							li.active(data-target="#carousel-example-generic" data-slide-to="0")
+							li(data-target="#carousel-example-generic" data-slide-to="1")
+						div.carousel-inner(role="listbox")
+							div.item.active
+								div.imagenes.pri-imag
+									.col-xs-3.thumbnail
+										.row.text-center
+											img.thumbnail.img-responsive(src="images/a1.jpg")
+										.row.text-center
+											p Deliver Wide
+											span
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+											p.precio $218.00
+									.col-xs-3.thumbnail
+										.row.text-center
+											img.thumbnail.img-responsive(src="images/b1.jpg")
+										.row.text-center
+											p Deliver Wide
+											span
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+											p.precio $218.00
+									.col-xs-3.thumbnail
+										.row.text-center
+											img.thumbnail.img-responsive(src="images/c1.jpg")
+										.row.text-center
+											p Deliver Wide
+											span
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+											p.precio $218.00
+									.col-xs-3.thumbnail
+										.row.text-center
+											img.thumbnail.img-responsive(src="images/d1.jpg")
+										.row.text-center
+											p Deliver Wide
+											span
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+											p.precio $218.00
+								div.carousel-caption
+							div.item
+								div.imagenes.sec-imag
+									.col-xs-3.thumbnail
+										.row.text-center
+											img.thumbnail.img-responsive(src="images/a2.jpg")
+										.row.text-center
+											p Deliver Wide
+											span
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+											p.precio $218.00
+									.col-xs-3.thumbnail
+										.row.text-center
+											img.thumbnail.img-responsive(src="images/b2.jpg")
+										.row.text-center
+											p Deliver Wide
+											span
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+											p.precio $218.00
+									.col-xs-3.thumbnail
+										.row.text-center
+											img.thumbnail.img-responsive(src="images/c2.jpg")
+										.row.text-center
+											p Deliver Wide
+											span
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+											p.precio $218.00
+									.col-xs-3.thumbnail
+										.row.text-center
+											img.thumbnail.img-responsive(src="images/d2.jpg")
+										.row.text-center
+											p Deliver Wide
+											span
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+												i.fa.fa-star
+											p.precio $218.00
+								div.carousel-caption
+		.sexto
+			.container
+				.row.client
+					.col-xs-2
+						img.img-responsive(src="images/client1.jpg")
+					.col-xs-2
+						img.img-responsive(src="images/client2.jpg")
+					.col-xs-2
+						img.img-responsive(src="images/client3.jpg")
+					.col-xs-2
+						img.img-responsive(src="images/client4.jpg")
+					.col-xs-2
+						img.img-responsive(src="images/client5.jpg")
+					.col-xs-2
+						img.img-responsive(src="images/client6.jpg")
+		.septimo
+			.container
+				.row
+					div.opcion.text-center.dos
+						ul.fa.fa-chevron-left.list-unstyle.list-inline
+							li
+								a(href="#") CLOTHING
+							li
+								a(href="#") EQUIPEMENTS
+							li
+								a(href="#") JEWELLERY
+							i.fa.fa-chevron-right
+
+					div.lineas-separador
+				.row.car-dos
+					.col-xs-4
+						.col-xs-6.thumbnail
+							img(src="images/a2.jpg")
+						.col-xs-6
+							p Deliver Wide
+							p.precio $218.00
+							span
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+							button.btn.btn-default
+								i.fa.fa-shopping-cart ADD TO CART
+					.col-xs-4
+							.col-xs-6.thumbnail
+								img.img-responsive(src="images/d2.jpg")
+							.col-xs-6
+								p Deliver Wide
+								p.precio $218.00
+								span
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+								button.btn.btn-default
+									i.fa.fa-shopping-cart ADD TO CART
+					.col-xs-4
+							.col-xs-6.thumbnail
+								img.img-responsive(src="images/g2.jpg")
+							.col-xs-6
+								p Deliver Wide
+								p.precio $218.00
+								span
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+									i.fa.fa-star
+								button.btn.btn-default
+									i.fa.fa-shopping-cart ADD TO CART
+				.row.car-dos
+					.col-xs-4
+						.col-xs-6.thumbnail
+							img.img-responsive(src="images/h1.jpg")
+						.col-xs-6
+							p Deliver Wide
+							p.precio $218.00
+							span
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+							button.btn.btn-default
+								i.fa.fa-shopping-cart ADD TO CART
+					.col-xs-4
+						.col-xs-6.thumbnail
+							img.img-responsive(src="images/c2.jpg")
+						.col-xs-6
+							p Deliver Wide
+							p.precio $218.00
+							span
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+							button.btn.btn-default
+								i.fa.fa-shopping-cart ADD TO CART
+					.col-xs-4
+						.col-xs-6.thumbnail
+							img.img-responsive(src="images/e2.jpg")
+						.col-xs-6
+							p Deliver Wide
+							p.precio $218.00
+							span
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+								i.fa.fa-star
+							button.btn.btn-default
+								i.fa.fa-shopping-cart ADD TO CART
+		.octavo
+			.container
+				.row
+					div.opcion.text-center.tres
+						ul.fa.fa-chevron-left.list-unstyle.list-inline
+							li
+								a(href="#") CLOTHING
+							i.fa.fa-chevron-right
+
+					div.lineas-separador
+				.row.octavo-imag
+					.col-xs-3
+							img.img-responsive(src="images/blog2.jpg")
+							h5 THE SAMPLE HEADING
+							p 27/11/2015
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							p.read 
+								a(href="#") Read more...
+					.col-xs-3
+							img.img-responsive(src="images/blog1.jpg")
+							h5 THE SAMPLE HEADING
+							p 27/11/2015
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							p.read 
+								a(href="#") Read more...	
+					.col-xs-3
+							img.img-responsive(src="images/blog2.jpg")
+							h5 THE SAMPLE HEADING
+							p 27/11/2015
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							p.read 
+								a(href="#") Read more...
+					.col-xs-3
+							img.img-responsive(src="images/blog3.jpg")
+							h5 THE SAMPLE HEADING
+							p 27/11/2015
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							p.read 
+								a(href="#") Read more...
+		.noveno
+			.container
+				.row
+					.col-xs-4
+						div.col-xs-12.thumbnail
+							.col-xs-4.text-center
+								i.fa.fa-phone-square
+							.col-xs-8
+								h5 qqqqqqqqqqqqq
+								p qqqqqqqqqqqqq
+					.col-xs-4
+						div.col-xs-12.thumbnail
+							.col-xs-4
+								i.fa.fa-plane
+							.col-xs-8
+								h5 qqqqqqqqqqqqq
+								p qqqqqqqqqqqqq
+					.col-xs-4
+						div.col-xs-12.thumbnail
+							.col-xs-4
+								i.fa.fa-money
+							.col-xs-8
+								h5 qqqqqqqqqqqqq
+								p qqqqqqqqqqqqq
+		.decimo
+			.container
+				.row.antefin
+					.col-xs-5
+						.col-xs-8
+							.row
+								h4 ACCESORIES
+								P  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quasi error suscipit odit tempore distinctio reiciendis magni, ab totam quia quas, non, illo nemo voluptatum. 
+							.row.redes
+								.col-xs-2
+									div.fa.fa-facebook
+								.col-xs-2
+									div.fa.fa-twitter
+								.col-xs-2
+									div.fa.fa-rss
+								.col-xs-2
+									div.fa.fa-skype
+								.col-xs-2
+									div.fa.fa-dribbble
+						.col-xs-4 
+							//- margin-left:-40px;
+							h4 MY ACCOUNT
+							ul
+							li.fa.fa-caret-right
+								a(href="#") Order History
+							li.fa.fa-caret-right
+								a(href="#") Wish List
+							li.fa.fa-caret-right
+								a(href="#") Privacy Policy
+							li.fa.fa-caret-right
+								a(href="#") Newlester
+					.col-xs-7
+						.col-xs-3
+							h4 INFORMATION
+							ul
+							li.fa.fa-caret-right
+								a(href="#") Order History
+							li.fa.fa-caret-right
+								a(href="#") Wish List
+							li.fa.fa-caret-right
+								a(href="#") Privacy Policy
+							li.fa.fa-caret-right
+								a(href="#") Newlester
+						.col-xs-3
+							h4 EXTRAS
+							ul.list-menu
+							li.fa.fa-caret-right
+								a(href="#") Order History
+							li.fa.fa-caret-right
+								a(href="#") Wish List
+							li.fa.fa-caret-right
+								a(href="#") Privacy Policy
+							li.fa.fa-caret-right
+								a(href="#") Newlester
+						.col-xs-6
+							h4 ABOUT US
+								ul.list-unstyle
+								li
+									i.fa.fa-map-marker 
+									p 8901 Marmora Road, Glasgow D04 89 Gr, New York
+								li
+									i.fa.fa-phone
+									p (0123)456789 (0987)654321
+								li
+									i.fa.fa-envelope
+									p admin@bootexperts.com
+		.piepagina
+			.container
+				.row.pie
+					.col-xs-6
+						p Copyright
+							i.fa.fa-copyright 2015<span class="ultimo">BootExperts</span> All rigth reserved
+									
+					.col-xs-6
+						img.img-responsive.pull-right(src="images/payment.png")
+
+
+
+											
+									
+
+
+
+
+
+
+
+						
+						
+
+
+
+
+					
+
+
+								
+
+
+
+
+
