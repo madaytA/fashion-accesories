@@ -16,12 +16,14 @@ html(lang="en")
 
 		.contacto
 			.contacto2
-				.container
+				
+		.contenido
+			.container
 					.row
-						.col-xs-6.text-center
-							h1 CONTACT US
-						.col-xs-6
-							ul
+						.col-xs-6.text-center.grande
+								h1 CONTACT US
+						.col-xs-6.grande
+							ul.list-unstyle
 								li 
 									a(href="#") Contact info
 								li
@@ -32,9 +34,33 @@ html(lang="en")
 									a(href="#") Contact info
 		.direccion
 			.container
-				.row
+				.row.map-formu
 					.col-xs-6
-						iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7654.624612802803!2d-71.52641417628686!3d-16.40895771281223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b022b4291ad%3A0xf9f68a50f4ae09a3!2sLambramani%2C+Arequipa!5e0!3m2!1ses-419!2spe!4v1464913762956" width="600" height="450" frameborder="0" style="border:0" allowfullscreen)
-
-
+						.col-xs-12
+							iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7654.624612802803!2d-71.52641417628686!3d-16.40895771281223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b022b4291ad%3A0xf9f68a50f4ae09a3!2sLambramani%2C+Arequipa!5e0!3m2!1ses-419!2spe!4v1464913762956" width="550" height="350" frameborder="0" style="border:0" allowfullscreen)
+					.col-xs-6
+						.row
+							.col-xs-12
+								.col-xs-6
+									input#inputname.form-control(type='email', placeholder='First Name')
+								.col-xs-6
+									input#inputlastname.form-control(type='lastname', placeholder='Last Name')
+						.row.formu-cont
+							.col-xs-12
+								.col-xs-6
+									input#inputEmail3.form-control(type='email', placeholder='Email')
+								.col-xs-6
+									input#inputweb.form-control(type='website', placeholder='website')
+						.row.formu-cont
+							.col-xs-12
+								.col-xs-12
+									input#inputEmail3.form-control(type='email', placeholder='Email')
+						.row.formu-cont
+							.col-xs-12
+								.col-xs-12
+									textarea.form-control(rows='7', placeholder='Message')
+						.row.formu-cont.col-xs-12
+							.boton
+								button.btn.btn-default(type='submit') Sign in
+													
 		include footer.jade

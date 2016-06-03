@@ -30,6 +30,10 @@ a {
   padding-bottom: 10px;
 }
 
+.cabecera .list-menu {
+  margin-top: -15px;
+}
+
 .cabecera a {
   color: #535353;
   font-family: "Open Sans", sans-serif;
@@ -321,6 +325,36 @@ a {
   max-width: 100%;
 }
 
+.venta {
+  position: relative;
+  z-index: 1;
+  bottom: 150px;
+  float: top;
+}
+
+.new {
+  color: #fff;
+  background-color: #E48080;
+  width: 50px;
+  padding: 5px;
+}
+
+.negro {
+  background-color: #434343;
+  margin-bottom: 5px;
+}
+
+.carrusel .new {
+  color: #fff;
+  background-color: #E48080;
+  width: 50px;
+  padding: 5px;
+  position: relative;
+  z-index: 1;
+  bottom: 200px;
+  left: 10px;
+}
+
 .contacto {
   background-image: url(../images/slider2.jpg);
   background-size: cover;
@@ -330,6 +364,116 @@ a {
 .contacto2 {
   background-color: #000;
   opacity: 0.7;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.map-formu {
+  margin-bottom: 50px;
+}
+
+.formu-cont {
+  margin-top: 15px;
+}
+
+.boton {
+  float: right;
+  margin-right: -15px;
+}
+
+.grande h1 {
+  color: #fff;
+  padding: 20px 30px;
+  background-color: #E48080;
+}
+
+.grande {
+  position: absolute;
+  z-index: 1;
+  top: -200px;
+}
+
+.grande li {
+  list-style: none;
+}
+
+.grande a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.grande a:hover {
+  text-decoration: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #E48080;
+}
+
+@media screen and (max-width: 750px) {
+  .cabecera {
+    margin-top: 0;
+    height: 100px;
+  }
+  .segundo {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 280px;
+  }
+  .segundo .col-md-4 {
+    margin-bottom: 20px;
+  }
+  .segundo .reloj {
+    margin-left: 0;
+  }
+  .tercero .compras {
+    margin-top: -60;
+    display: inline-block;
+    float: right;
+  }
+  .cuarto .opa {
+    height: 200px;
+    margin-right: -150px;
+  }
+  .cuarto .opa img {
+    height: 50px;
+  }
+  .cuarto p {
+    margin: 0;
+  }
+  .opcion {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    margin: 40px 240px;
+    font-size: 15px;
+  }
+  .dos {
+    margin: 40px 195px;
+  }
+  .tres {
+    margin: 40px 320px;
+  }
+  .venta {
+    position: relative;
+    z-index: 1;
+    bottom: 50px;
+    float: top;
+    font-size: 7px;
+  }
+  .new {
+    color: #fff;
+    background-color: #E48080;
+    width: 25px;
+    padding: 5px;
+  }
+  .negro {
+    background-color: #434343;
+    margin-bottom: 5px;
+  }
+  .decimo .antefin {
+    font-size: 10px;
+  }
 }
