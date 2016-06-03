@@ -1,0 +1,101 @@
+Doctype
+html(lang="en")
+	head
+		title Fashion Accesoris
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="stylesheet", href="css/main.css")
+		link(rel="stylesheet", href="css/bootstrap.min.css")
+		link(rel="stylesheet", href="css/font-awesome.min.css")
+		link(rel="stylesheet", href="")
+
+		script(src="js/jquery.js")
+		script(src="js/bootstrap.min.js")
+	body
+		.cabecera
+			.container
+				.row
+					.col-xs-6
+						h4 Default Welcome Msg!
+					.col-xs-6
+						ul.list-menu.list-unstyle.list-inline.pull-right
+							li
+								div.dropdown
+									img.img-responsive(src="images/flag1.png")
+									button.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") Languaje
+										i.fa.fa-chevron-down
+									span.claret
+									ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+										li
+											a(href="#") Action
+										li
+											a(href="#") Another action
+										li
+											a(href="#") Something else here
+										li.divider(role="separator")
+										li
+											a(href="#") Separated link
+									
+							li
+								div.dropdown
+									button.fa.fa-usd.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") Currency
+										i.fa.fa-chevron-down
+									span.claret
+									ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+										li
+											a(href="#") Action
+										li
+											a(href="#") Another action
+										li
+											a(href="#") Something else here
+										li.divider(role="separator")
+										li
+											a(href="#") Separated link
+							
+							li
+								div.dropdown
+									button.fa.fa-user.dropdown-toggle(type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") My Account
+										i.fa.fa-chevron-down
+									span.claret
+									ul.dropdown-menu(aria-labelledby="dropdownMenu1")
+										li
+											a(href="#") Action
+										li
+											a(href="#") Another action
+										li
+											a(href="#") Something else here
+										li.divider(role="separator")
+										li
+											a(href="#") Separated link
+		.segundo
+			.container
+				.row
+					.col-xs-4.open
+						.col-xs-4
+							i.fa.fa-clock-o.reloj
+						.col-xs-8
+							h4 OPENING TIME
+							P 9.00 AM - 10.00 PM
+					.col-xs-4
+						img(src="images/logo.png")
+					.col-xs-4
+						input.buscador.srilo_lt(
+							type=search 
+							name=busqueda
+							placeholder=search
+							)
+						i.fa.fa-search
+		.tercero
+			.container
+				.row
+					.col-xs-6
+						ul.list-menu.list-unstyle.list-inline
+							li
+								a(href="#") HOME
+							li
+								a(href="#") CONTACT US
+					.col-xs-6
+						div.compras
+							h3 
+								i.fa.fa-shopping-cart MY CART 
+							p 2 items(s) - $244.00
